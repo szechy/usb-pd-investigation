@@ -1,1 +1,7 @@
+# Ignore the EAGLE board and schematic backup files and lock files
+*.b#?
+*.s#?
+*.l#?
+*.lck
+
 docs
