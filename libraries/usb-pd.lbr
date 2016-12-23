@@ -417,6 +417,36 @@ package type OT</description>
 <vertex x="-12.2682" y="-5.3848"/>
 <vertex x="-14.1732" y="-5.3848"/>
 </polygon>
+<wire x1="-13.716" y1="5.08" x2="-5.08" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-5.08" x2="-13.716" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-13.716" y1="-5.08" x2="-13.716" y2="5.08" width="0.127" layer="21"/>
+</package>
+<package name="1260">
+<smd name="P$1" x="0" y="4.9" dx="5.4" dy="3" layer="1"/>
+<smd name="P$2" x="0" y="-4.9" dx="5.4" dy="3" layer="1"/>
+<wire x1="-6" y1="6" x2="6" y2="6" width="0.127" layer="21"/>
+<wire x1="6" y1="6" x2="6" y2="-6" width="0.127" layer="21"/>
+<wire x1="6" y1="-6" x2="-6" y2="-6" width="0.127" layer="21"/>
+<wire x1="-6" y1="-6" x2="-6" y2="6" width="0.127" layer="21"/>
+</package>
+<package name="AVE108M10G">
+<smd name="P$1" x="-4" y="0" dx="4" dy="2.5" layer="1"/>
+<smd name="P$2" x="4" y="0" dx="4" dy="2.5" layer="1"/>
+<wire x1="-5" y1="5" x2="5" y2="5" width="0.127" layer="21"/>
+<wire x1="5" y1="5" x2="5" y2="-5" width="0.127" layer="21"/>
+<wire x1="5" y1="-5" x2="-5" y2="-5" width="0.127" layer="21"/>
+<wire x1="-5" y1="-5" x2="-5" y2="5" width="0.127" layer="21"/>
+<text x="-3.81" y="1.27" size="2.54" layer="21" font="vector">+</text>
+</package>
+<package name="UWT1V101MCL1GS">
+<smd name="P$1" x="0" y="2.8" dx="3" dy="4" layer="1"/>
+<smd name="P$2" x="0" y="-2.8" dx="3" dy="4" layer="1"/>
+<wire x1="-3.3" y1="3.3" x2="3.3" y2="3.3" width="0.127" layer="21"/>
+<wire x1="3.3" y1="3.3" x2="3.3" y2="-3.3" width="0.127" layer="21"/>
+<wire x1="3.3" y1="-3.3" x2="-3.3" y2="-3.3" width="0.127" layer="21"/>
+<wire x1="-3.3" y1="-3.3" x2="-3.3" y2="3.3" width="0.127" layer="21"/>
+<text x="1.57" y="1.4" size="2" layer="21" font="vector">+</text>
 </package>
 </packages>
 <symbols>
@@ -605,6 +635,23 @@ package type OT</description>
 <pin name="ON/OFF" x="2.54" y="-12.7" length="middle" rot="R90"/>
 <pin name="FEEDBACK" x="25.4" y="2.54" length="middle" rot="R180"/>
 <pin name="OUTPUT" x="25.4" y="-5.08" length="middle" rot="R180"/>
+</symbol>
+<symbol name="INDUCTOR">
+<pin name="P$1" x="-7.62" y="0" length="short"/>
+<pin name="P$2" x="7.62" y="0" length="short" rot="R180"/>
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+</symbol>
+<symbol name="CAPACITOR">
+<wire x1="-2.54" y1="-2.032" x2="0" y2="-2.032" width="0.508" layer="94"/>
+<wire x1="0" y1="-2.032" x2="2.54" y2="-2.032" width="0.508" layer="94"/>
+<wire x1="0" y1="-2.032" x2="0" y2="2.54" width="0.254" layer="94"/>
+<pin name="P$1" x="0" y="2.54" length="point"/>
+<pin name="P$2" x="0" y="-7.62" length="point"/>
+<wire x1="-2.54" y1="-3.81" x2="2.54" y2="-3.81" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="-7.62" x2="0" y2="-2.794" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -825,6 +872,54 @@ Source: murata.co.jp</description>
 <connect gate="G$1" pin="ON/OFF" pad="P$5"/>
 <connect gate="G$1" pin="OUTPUT" pad="P$2"/>
 <connect gate="G$1" pin="VIN" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WEURTH-784771101">
+<gates>
+<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1260">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AVE108M10G24T-F">
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="AVE108M10G">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="UWT1V101MCL1GS">
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="UWT1V101MCL1GS">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
