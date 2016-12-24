@@ -9360,7 +9360,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <instance part="GND15" gate="1" x="-93.98" y="109.22"/>
 <instance part="C9" gate="G$1" x="-93.98" y="121.92"/>
 <instance part="D1" gate="G$1" x="-104.14" y="149.86"/>
-<instance part="GND16" gate="1" x="215.9" y="111.76"/>
+<instance part="GND16" gate="1" x="215.9" y="114.3"/>
 <instance part="P+11" gate="1" x="208.28" y="132.08"/>
 <instance part="+3V3" gate="G$1" x="215.9" y="132.08"/>
 <instance part="U$6" gate="G$1" x="-99.06" y="55.88"/>
@@ -9726,7 +9726,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 </segment>
 <segment>
 <pinref part="GND16" gate="1" pin="GND"/>
-<wire x1="215.9" y1="114.3" x2="215.9" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="116.84" x2="215.9" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="119.38" x2="215.9" y2="121.92" width="0.1524" layer="91"/>
 <junction x="215.9" y="119.38"/>
 <pinref part="POWER" gate="A" pin="7"/>
@@ -9921,9 +9921,9 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <pinref part="U1" gate="G$1" pin="(RXD)PD0"/>
 <wire x1="195.58" y1="10.16" x2="200.66" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="10.16" x2="200.66" y2="7.62" width="0.1524" layer="91"/>
+<label x="198.12" y="10.16" size="1.778" layer="95"/>
 <pinref part="IOL" gate="A" pin="1"/>
 <wire x1="200.66" y1="7.62" x2="236.22" y2="7.62" width="0.1524" layer="91"/>
-<label x="198.12" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USB_TX" class="0">
@@ -9936,9 +9936,9 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <pinref part="U1" gate="G$1" pin="(TXD)PD1"/>
 <wire x1="195.58" y1="12.7" x2="203.2" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="12.7" x2="203.2" y2="10.16" width="0.1524" layer="91"/>
+<label x="198.12" y="12.7" size="1.778" layer="95"/>
 <pinref part="IOL" gate="A" pin="2"/>
 <wire x1="203.2" y1="10.16" x2="236.22" y2="10.16" width="0.1524" layer="91"/>
-<label x="198.12" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -10011,9 +10011,9 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <pinref part="U1" gate="G$1" pin="(INT0)PD2"/>
 <wire x1="195.58" y1="15.24" x2="205.74" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="15.24" x2="205.74" y2="12.7" width="0.1524" layer="91"/>
+<label x="198.12" y="15.24" size="1.778" layer="95"/>
 <pinref part="IOL" gate="A" pin="3"/>
 <wire x1="205.74" y1="12.7" x2="236.22" y2="12.7" width="0.1524" layer="91"/>
-<label x="198.12" y="15.24" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
@@ -10028,9 +10028,9 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <pinref part="U1" gate="G$1" pin="(INT1)PD3"/>
 <wire x1="195.58" y1="17.78" x2="208.28" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="17.78" x2="208.28" y2="15.24" width="0.1524" layer="91"/>
+<label x="198.12" y="17.78" size="1.778" layer="95"/>
 <pinref part="IOL" gate="A" pin="4"/>
 <wire x1="208.28" y1="15.24" x2="236.22" y2="15.24" width="0.1524" layer="91"/>
-<label x="198.12" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IO4" class="0">
@@ -10038,9 +10038,9 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <pinref part="U1" gate="G$1" pin="(T0)PD4"/>
 <wire x1="195.58" y1="20.32" x2="210.82" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="20.32" x2="210.82" y2="17.78" width="0.1524" layer="91"/>
+<label x="198.12" y="20.32" size="1.778" layer="95"/>
 <pinref part="IOL" gate="A" pin="5"/>
 <wire x1="210.82" y1="17.78" x2="236.22" y2="17.78" width="0.1524" layer="91"/>
-<label x="198.12" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IO5" class="0">
@@ -10048,9 +10048,9 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <pinref part="U1" gate="G$1" pin="(T1)PD5"/>
 <wire x1="195.58" y1="22.86" x2="213.36" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="22.86" x2="213.36" y2="20.32" width="0.1524" layer="91"/>
+<label x="198.12" y="22.86" size="1.778" layer="95"/>
 <pinref part="IOL" gate="A" pin="6"/>
 <wire x1="213.36" y1="20.32" x2="236.22" y2="20.32" width="0.1524" layer="91"/>
-<label x="198.12" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IO6" class="0">
@@ -10058,9 +10058,9 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <pinref part="U1" gate="G$1" pin="(AIN0)PD6"/>
 <wire x1="195.58" y1="25.4" x2="215.9" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="25.4" x2="215.9" y2="22.86" width="0.1524" layer="91"/>
+<label x="198.12" y="25.4" size="1.778" layer="95"/>
 <pinref part="IOL" gate="A" pin="7"/>
 <wire x1="215.9" y1="22.86" x2="236.22" y2="22.86" width="0.1524" layer="91"/>
-<label x="198.12" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IO7" class="0">
@@ -10068,9 +10068,9 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <pinref part="U1" gate="G$1" pin="(AIN1)PD7"/>
 <wire x1="195.58" y1="27.94" x2="218.44" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="27.94" x2="218.44" y2="25.4" width="0.1524" layer="91"/>
+<label x="198.12" y="27.94" size="1.778" layer="95"/>
 <pinref part="IOL" gate="A" pin="8"/>
 <wire x1="218.44" y1="25.4" x2="236.22" y2="25.4" width="0.1524" layer="91"/>
-<label x="198.12" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AD0" class="0">
