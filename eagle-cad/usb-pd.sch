@@ -432,48 +432,57 @@ package type OT</description>
 <wire x1="3.3" y1="-3.3" x2="-3.3" y2="-3.3" width="0.127" layer="21"/>
 <wire x1="-3.3" y1="-3.3" x2="-3.3" y2="3.3" width="0.127" layer="21"/>
 </package>
-<package name="TYPE-C-BR20-AK511">
-<smd name="A$1" x="-2.75" y="0" dx="0.3" dy="0.7" layer="1"/>
-<smd name="A$2" x="-2.25" y="0" dx="0.3" dy="0.7" layer="1"/>
-<smd name="A$3" x="-1.75" y="0" dx="0.3" dy="0.7" layer="1"/>
-<smd name="A$4" x="-1.25" y="0" dx="0.3" dy="0.7" layer="1"/>
-<smd name="A$5" x="-0.75" y="0" dx="0.3" dy="0.7" layer="1"/>
-<smd name="A$6" x="-0.25" y="0" dx="0.3" dy="0.7" layer="1"/>
-<smd name="A$7" x="0.25" y="0" dx="0.3" dy="0.7" layer="1"/>
-<smd name="A$8" x="0.75" y="0" dx="0.3" dy="0.7" layer="1"/>
-<smd name="A$9" x="1.25" y="0" dx="0.3" dy="0.7" layer="1"/>
-<smd name="A$10" x="1.75" y="0" dx="0.3" dy="0.7" layer="1"/>
-<smd name="A$11" x="2.25" y="0" dx="0.3" dy="0.7" layer="1"/>
-<smd name="A$12" x="2.75" y="0" dx="0.3" dy="0.7" layer="1"/>
-<pad name="B$1" x="2.8" y="-1.11" drill="0.4" diameter="0.55"/>
-<pad name="B$2" x="2.4" y="-2.01" drill="0.4" diameter="0.55"/>
-<pad name="B$3" x="1.6" y="-2.01" drill="0.4" diameter="0.55"/>
-<pad name="B$5" x="0.8" y="-2.01" drill="0.4" diameter="0.55"/>
-<pad name="B$4" x="1.2" y="-1.11" drill="0.4" diameter="0.55"/>
-<pad name="B$6" x="0.4" y="-1.11" drill="0.4" diameter="0.55"/>
-<pad name="B$7" x="-0.4" y="-1.11" drill="0.4" diameter="0.55"/>
-<pad name="B$8" x="-0.8" y="-2.01" drill="0.4" diameter="0.55"/>
-<pad name="B$9" x="-1.2" y="-1.11" drill="0.4" diameter="0.55"/>
-<pad name="B$10" x="-1.6" y="-2.01" drill="0.4" diameter="0.55"/>
-<pad name="B$11" x="-2.4" y="-2.01" drill="0.4" diameter="0.55"/>
-<pad name="B$12" x="-2.8" y="-1.11" drill="0.4" diameter="0.55"/>
-<pad name="P$1" x="-6.125" y="-6.2" drill="1.7" diameter="2.3"/>
-<pad name="P$2" x="6.125" y="-6.2" drill="1.7" diameter="2.3"/>
-<pad name="P$3" x="-4.125" y="-1.91" drill="0.95" diameter="1.2"/>
-<pad name="P$4" x="4.125" y="-1.91" drill="0.95" diameter="1.2"/>
-<wire x1="-4.625" y1="-7.5" x2="-4.625" y2="-3.85" width="0.127" layer="20"/>
-<wire x1="4.625" y1="-7.5" x2="4.625" y2="-3.85" width="0.127" layer="20"/>
-<wire x1="-4.625" y1="-3.85" x2="-4.625" y2="-2.85" width="0.127" layer="20" curve="-180"/>
-<wire x1="4.625" y1="-3.85" x2="4.625" y2="-2.85" width="0.127" layer="20" curve="189"/>
-<wire x1="-4.8" y1="-2.9" x2="-4.625" y2="-2.85" width="0.127" layer="20"/>
-<wire x1="-4.625" y1="-2.85" x2="4.625" y2="-2.85" width="0.127" layer="20"/>
-<wire x1="4.625" y1="-2.85" x2="4.8" y2="-2.9" width="0.127" layer="20"/>
-<pad name="P$5" x="3.6" y="-0.66" drill="0.65" diameter="0.85"/>
-<pad name="P$6" x="-3.6" y="-0.66" drill="0.65" diameter="0.85"/>
-<smd name="P$7" x="-1.25" y="0.8" dx="0.5" dy="0.3" layer="1"/>
-<smd name="P$8" x="1.25" y="0.8" dx="0.5" dy="0.3" layer="1"/>
-<smd name="P$9" x="-3.375" y="0.8" dx="0.5" dy="0.3" layer="1"/>
-<smd name="P$10" x="3.375" y="0.8" dx="0.5" dy="0.3" layer="1"/>
+<package name="AMPHENOL-TYPE-C-12401548E4">
+<smd name="P$1" x="-3.915" y="-0.425" dx="0.46" dy="0.85" layer="1"/>
+<smd name="P$2" x="3.915" y="-0.425" dx="0.46" dy="0.85" layer="1"/>
+<smd name="B12" x="-3.4" y="-0.425" dx="0.23" dy="0.85" layer="1"/>
+<smd name="B11" x="-3" y="-0.425" dx="0.23" dy="0.85" layer="1"/>
+<smd name="B10" x="-2.6" y="-0.425" dx="0.23" dy="0.85" layer="1"/>
+<smd name="A1" x="-2.2" y="-0.425" dx="0.23" dy="0.85" layer="1"/>
+<smd name="A2" x="-1.8" y="-0.425" dx="0.23" dy="0.85" layer="1"/>
+<smd name="A3" x="-1.4" y="-0.425" dx="0.23" dy="0.85" layer="1"/>
+<smd name="A4" x="-1" y="-0.425" dx="0.23" dy="0.85" layer="1"/>
+<smd name="A5" x="-0.6" y="-0.425" dx="0.23" dy="0.85" layer="1"/>
+<smd name="A6" x="-0.2" y="-0.425" dx="0.23" dy="0.85" layer="1"/>
+<smd name="A7" x="0.2" y="-0.425" dx="0.23" dy="0.85" layer="1"/>
+<smd name="A8" x="0.6" y="-0.425" dx="0.23" dy="0.85" layer="1"/>
+<smd name="A9" x="1" y="-0.425" dx="0.23" dy="0.85" layer="1"/>
+<smd name="A10" x="1.4" y="-0.425" dx="0.23" dy="0.85" layer="1"/>
+<smd name="A11" x="1.8" y="-0.425" dx="0.23" dy="0.85" layer="1"/>
+<smd name="A12" x="2.2" y="-0.425" dx="0.23" dy="0.85" layer="1"/>
+<smd name="B3" x="2.6" y="-0.425" dx="0.23" dy="0.85" layer="1"/>
+<smd name="B2" x="3" y="-0.425" dx="0.23" dy="0.85" layer="1"/>
+<smd name="B1" x="3.4" y="-0.425" dx="0.23" dy="0.85" layer="1"/>
+<pad name="B9" x="-2" y="-1.35" drill="0.4" diameter="0.6"/>
+<pad name="B8" x="-1.2" y="-1.35" drill="0.4" diameter="0.6"/>
+<pad name="B7" x="-0.4" y="-1.35" drill="0.4" diameter="0.6"/>
+<pad name="B6" x="0.4" y="-1.35" drill="0.4" diameter="0.6"/>
+<pad name="B5" x="1.2" y="-1.35" drill="0.4" diameter="0.6"/>
+<pad name="B4" x="2" y="-1.35" drill="0.4" diameter="0.6"/>
+<wire x1="-5.85" y1="-1.45" x2="-5.85" y2="-0.35" width="0.127" layer="20"/>
+<wire x1="-5.25" y1="-0.35" x2="-5.25" y2="-1.45" width="0.127" layer="20"/>
+<wire x1="-5.85" y1="-0.35" x2="-5.25" y2="-0.35" width="0.127" layer="20" curve="-180"/>
+<wire x1="-5.25" y1="-1.45" x2="-5.85" y2="-1.45" width="0.127" layer="20" curve="-180"/>
+<smd name="P$27" x="-5.55" y="-0.9" dx="1.2" dy="2.3" layer="1"/>
+<wire x1="5.25" y1="-1.45" x2="5.25" y2="-0.35" width="0.127" layer="20"/>
+<wire x1="5.85" y1="-0.35" x2="5.85" y2="-1.45" width="0.127" layer="20"/>
+<wire x1="5.25" y1="-0.35" x2="5.85" y2="-0.35" width="0.127" layer="20" curve="-180"/>
+<wire x1="5.85" y1="-1.45" x2="5.25" y2="-1.45" width="0.127" layer="20" curve="-180"/>
+<smd name="P$28" x="5.55" y="-0.9" dx="1.2" dy="2.3" layer="1"/>
+<wire x1="5.25" y1="-6.5" x2="5.25" y2="-5.4" width="0.127" layer="20"/>
+<wire x1="5.85" y1="-5.4" x2="5.85" y2="-6.5" width="0.127" layer="20"/>
+<wire x1="5.25" y1="-5.4" x2="5.85" y2="-5.4" width="0.127" layer="20" curve="-180"/>
+<wire x1="5.85" y1="-6.5" x2="5.25" y2="-6.5" width="0.127" layer="20" curve="-180"/>
+<smd name="P$29" x="5.55" y="-5.95" dx="1.2" dy="2.3" layer="1"/>
+<wire x1="-5.85" y1="-6.5" x2="-5.85" y2="-5.4" width="0.127" layer="20"/>
+<wire x1="-5.25" y1="-5.4" x2="-5.25" y2="-6.5" width="0.127" layer="20"/>
+<wire x1="-5.85" y1="-5.4" x2="-5.25" y2="-5.4" width="0.127" layer="20" curve="-180"/>
+<wire x1="-5.25" y1="-6.5" x2="-5.85" y2="-6.5" width="0.127" layer="20" curve="-180"/>
+<smd name="P$30" x="-5.55" y="-5.95" dx="1.2" dy="2.3" layer="1"/>
+<wire x1="-4.67" y1="-8.55" x2="-4.67" y2="-1.9" width="0.127" layer="20"/>
+<wire x1="-4.67" y1="-1.9" x2="4.67" y2="-1.9" width="0.127" layer="20"/>
+<wire x1="4.67" y1="-1.9" x2="4.67" y2="-8.55" width="0.127" layer="20"/>
+<pad name="P$3" x="-5.55" y="-0.9" drill="1.7"/>
 </package>
 </packages>
 <symbols>
@@ -992,29 +1001,29 @@ Source: murata.co.jp</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TYPE-C-BR20-AK511">
+<deviceset name="TYPE-C-12401548E4">
 <gates>
 <gate name="G$1" symbol="USB-TYPE-C-CON" x="2.54" y="20.32"/>
 </gates>
 <devices>
-<device name="" package="TYPE-C-BR20-AK511">
+<device name="" package="AMPHENOL-TYPE-C-12401548E4">
 <connects>
-<connect gate="G$1" pin="CC1" pad="A$5"/>
-<connect gate="G$1" pin="CC2" pad="B$5"/>
-<connect gate="G$1" pin="D+" pad="A$6 B$6"/>
-<connect gate="G$1" pin="D-" pad="A$7 B$7"/>
-<connect gate="G$1" pin="GND" pad="A$1 A$12 B$1 B$12"/>
-<connect gate="G$1" pin="RX1+" pad="B$11"/>
-<connect gate="G$1" pin="RX1-" pad="B$10"/>
-<connect gate="G$1" pin="RX2+" pad="A$11"/>
-<connect gate="G$1" pin="RX2-" pad="A$10"/>
-<connect gate="G$1" pin="SBU1" pad="A$8"/>
-<connect gate="G$1" pin="SBU2" pad="B$8"/>
-<connect gate="G$1" pin="TX1+" pad="A$2"/>
-<connect gate="G$1" pin="TX1-" pad="A$3"/>
-<connect gate="G$1" pin="TX2+" pad="B$2"/>
-<connect gate="G$1" pin="TX2-" pad="B$3"/>
-<connect gate="G$1" pin="VBUS" pad="A$4 A$9 B$4 B$9"/>
+<connect gate="G$1" pin="CC1" pad="A5"/>
+<connect gate="G$1" pin="CC2" pad="B5"/>
+<connect gate="G$1" pin="D+" pad="A6 B6"/>
+<connect gate="G$1" pin="D-" pad="A7 B7"/>
+<connect gate="G$1" pin="GND" pad="A1 A12 B1 B12"/>
+<connect gate="G$1" pin="RX1+" pad="B11"/>
+<connect gate="G$1" pin="RX1-" pad="B10"/>
+<connect gate="G$1" pin="RX2+" pad="A11"/>
+<connect gate="G$1" pin="RX2-" pad="A10"/>
+<connect gate="G$1" pin="SBU1" pad="A8"/>
+<connect gate="G$1" pin="SBU2" pad="B8"/>
+<connect gate="G$1" pin="TX1+" pad="A2"/>
+<connect gate="G$1" pin="TX1-" pad="A3"/>
+<connect gate="G$1" pin="TX2+" pad="B2"/>
+<connect gate="G$1" pin="TX2-" pad="B3"/>
+<connect gate="G$1" pin="VBUS" pad="A4 A9 B4 B9"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9204,7 +9213,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 </classes>
 <parts>
 <part name="U$4" library="usb-pd" deviceset="CP2104" device=""/>
-<part name="U1" library="usb-pd" deviceset="ATMEGA328-AU" device=""/>
+<part name="U$9" library="usb-pd" deviceset="ATMEGA328-AU" device=""/>
 <part name="JP1" library="pinhead" deviceset="PINHD-2X3" device=""/>
 <part name="IOH" library="pinhead" deviceset="PINHD-1X10" device=""/>
 <part name="IOL" library="pinhead" deviceset="PINHD-1X8" device=""/>
@@ -9265,7 +9274,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="P+11" library="supply1" deviceset="+5V" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
-<part name="U$6" library="usb-pd" deviceset="TI-LM2576-5.0" device=""/>
+<part name="U$1" library="usb-pd" deviceset="TI-LM2576-5.0" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="D2" library="diode" deviceset="1N5400" device="" value="1N5822"/>
@@ -9273,12 +9282,12 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <part name="D3" library="diode" deviceset="1N5400" device="" value="1N5822"/>
 <part name="P+12" library="supply1" deviceset="+5V" device=""/>
 <part name="U$7" library="usb-pd" deviceset="WEURTH-784771101" device=""/>
-<part name="C13" library="usb-pd" deviceset="AVE108M10G24T-F" device=""/>
+<part name="C11" library="usb-pd" deviceset="AVE108M10G24T-F" device=""/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="U$8" library="usb-pd" deviceset="UWT1V101MCL1GS" device=""/>
+<part name="C10" library="usb-pd" deviceset="UWT1V101MCL1GS" device=""/>
 <part name="P+13" library="supply1" deviceset="+5V" device=""/>
 <part name="R11" library="rcl" deviceset="R-US_" device="R0402" value="10k"/>
-<part name="U$9" library="usb-pd" deviceset="UE27AC54100" device=""/>
+<part name="J$2" library="usb-pd" deviceset="UE27AC54100" device=""/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="P+14" library="supply1" deviceset="+5V" device=""/>
 <part name="R12" library="rcl" deviceset="R-US_" device="R0402" value="43k"/>
@@ -9288,11 +9297,11 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <part name="P+15" library="supply1" deviceset="+5V" device=""/>
 <part name="P+16" library="supply1" deviceset="+5V" device=""/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
-<part name="U$10" library="usb-pd" deviceset="WURTH-865080543009" device="" value="WURTH-865080543009-47uF"/>
-<part name="U$11" library="usb-pd" deviceset="WURTH-865090543005" device="" value="WURTH-865090543005-22uF"/>
+<part name="C12" library="usb-pd" deviceset="WURTH-865080543009" device="" value="WURTH-865080543009-47uF"/>
+<part name="C13" library="usb-pd" deviceset="WURTH-865090543005" device="" value="WURTH-865090543005-22uF"/>
 <part name="U$3" library="usb-pd" deviceset="NXP-PTN5150" device=""/>
 <part name="T1" library="transistor-power" deviceset="FDN360P" device=""/>
-<part name="U$1" library="usb-pd" deviceset="TYPE-C-BR20-AK511" device=""/>
+<part name="J$1" library="usb-pd" deviceset="TYPE-C-12401548E4" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9302,7 +9311,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 </plain>
 <instances>
 <instance part="U$4" gate="G$1" x="162.56" y="-35.56"/>
-<instance part="U1" gate="G$1" x="162.56" y="40.64"/>
+<instance part="U$9" gate="G$1" x="162.56" y="40.64"/>
 <instance part="JP1" gate="A" x="160.02" y="99.06"/>
 <instance part="IOH" gate="A" x="233.68" y="78.74" rot="R180"/>
 <instance part="IOL" gate="A" x="233.68" y="17.78" rot="R180"/>
@@ -9363,7 +9372,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <instance part="GND16" gate="1" x="215.9" y="114.3"/>
 <instance part="P+11" gate="1" x="208.28" y="132.08"/>
 <instance part="+3V3" gate="G$1" x="215.9" y="132.08"/>
-<instance part="U$6" gate="G$1" x="-99.06" y="55.88"/>
+<instance part="U$1" gate="G$1" x="-99.06" y="55.88"/>
 <instance part="GND17" gate="1" x="-101.6" y="35.56"/>
 <instance part="GND18" gate="1" x="-50.8" y="33.02"/>
 <instance part="D2" gate="1" x="-71.12" y="45.72" rot="R90"/>
@@ -9371,12 +9380,12 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <instance part="D3" gate="1" x="-45.72" y="58.42"/>
 <instance part="P+12" gate="1" x="-35.56" y="63.5"/>
 <instance part="U$7" gate="G$1" x="-60.96" y="50.8"/>
-<instance part="C13" gate="G$1" x="-50.8" y="45.72"/>
+<instance part="C11" gate="G$1" x="-50.8" y="45.72"/>
 <instance part="GND20" gate="1" x="-119.38" y="40.64"/>
-<instance part="U$8" gate="G$1" x="-119.38" y="53.34"/>
+<instance part="C10" gate="G$1" x="-119.38" y="53.34"/>
 <instance part="P+13" gate="1" x="-109.22" y="88.9"/>
 <instance part="R11" gate="G$1" x="-109.22" y="78.74" rot="R90"/>
-<instance part="U$9" gate="G$1" x="-134.62" y="-12.7"/>
+<instance part="J$2" gate="G$1" x="-134.62" y="-12.7"/>
 <instance part="GND21" gate="1" x="-119.38" y="-30.48"/>
 <instance part="P+14" gate="1" x="-119.38" y="-2.54"/>
 <instance part="R12" gate="G$1" x="-111.76" y="-7.62" rot="R90"/>
@@ -9386,11 +9395,11 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <instance part="P+15" gate="1" x="-111.76" y="2.54"/>
 <instance part="P+16" gate="1" x="-111.76" y="-40.64" rot="R180"/>
 <instance part="GND22" gate="1" x="-96.52" y="-27.94"/>
-<instance part="U$10" gate="G$1" x="-99.06" y="142.24"/>
-<instance part="U$11" gate="G$1" x="-48.26" y="144.78"/>
+<instance part="C12" gate="G$1" x="-99.06" y="142.24"/>
+<instance part="C13" gate="G$1" x="-48.26" y="144.78"/>
 <instance part="U$3" gate="G$1" x="33.02" y="68.58" rot="MR0"/>
 <instance part="T1" gate="G$1" x="-116.84" y="71.12" rot="R180"/>
-<instance part="U$1" gate="G$1" x="-12.7" y="60.96" rot="MR0"/>
+<instance part="J$1" gate="G$1" x="-12.7" y="60.96" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -9402,7 +9411,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <label x="170.18" y="99.06" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="(MOSI)PB3"/>
+<pinref part="U$9" gate="G$1" pin="(MOSI)PB3"/>
 <wire x1="195.58" y1="63.5" x2="208.28" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="63.5" x2="208.28" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="IOH" gate="A" pin="4"/>
@@ -9417,7 +9426,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <label x="149.86" y="101.6" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="(MISO)PB4"/>
+<pinref part="U$9" gate="G$1" pin="(MISO)PB4"/>
 <wire x1="195.58" y1="66.04" x2="205.74" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="66.04" x2="205.74" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="IOH" gate="A" pin="5"/>
@@ -9438,7 +9447,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <label x="190.5" y="-35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="RESET"/>
+<pinref part="U$9" gate="G$1" pin="RESET"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="129.54" y1="68.58" x2="109.22" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="68.58" x2="109.22" y2="71.12" width="0.1524" layer="91"/>
@@ -9457,7 +9466,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <label x="149.86" y="99.06" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="(SCK)PB5"/>
+<pinref part="U$9" gate="G$1" pin="(SCK)PB5"/>
 <wire x1="195.58" y1="68.58" x2="203.2" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="68.58" x2="203.2" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="IOH" gate="A" pin="6"/>
@@ -9480,9 +9489,9 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <segment>
 <pinref part="P+3" gate="1" pin="+5V"/>
 <wire x1="114.3" y1="38.1" x2="114.3" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="VCC2"/>
+<pinref part="U$9" gate="G$1" pin="VCC2"/>
 <wire x1="114.3" y1="33.02" x2="119.38" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="VCC"/>
+<pinref part="U$9" gate="G$1" pin="VCC"/>
 <wire x1="119.38" y1="33.02" x2="124.46" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="33.02" x2="129.54" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="35.56" x2="124.46" y2="35.56" width="0.1524" layer="91"/>
@@ -9494,7 +9503,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <wire x1="106.68" y1="30.48" x2="106.68" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="30.48" x2="114.3" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="AVCC"/>
+<pinref part="U$9" gate="G$1" pin="AVCC"/>
 <wire x1="129.54" y1="45.72" x2="119.38" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="45.72" x2="119.38" y2="33.02" width="0.1524" layer="91"/>
 <junction x="119.38" y="33.02"/>
@@ -9560,7 +9569,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <junction x="-55.88" y="149.86"/>
 <wire x1="-48.26" y1="147.32" x2="-48.26" y2="149.86" width="0.1524" layer="91"/>
 <junction x="-48.26" y="149.86"/>
-<pinref part="U$11" gate="G$1" pin="P$1"/>
+<pinref part="C13" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
 <pinref part="POWER" gate="A" pin="5"/>
@@ -9580,7 +9589,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <wire x1="-109.22" y1="83.82" x2="-109.22" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$9" gate="G$1" pin="VBUS"/>
+<pinref part="J$2" gate="G$1" pin="VBUS"/>
 <wire x1="-124.46" y1="-10.16" x2="-119.38" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="-119.38" y1="-10.16" x2="-119.38" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="P+14" gate="1" pin="+5V"/>
@@ -9611,7 +9620,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <wire x1="114.3" y1="20.32" x2="119.38" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="20.32" x2="124.46" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="20.32" x2="124.46" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="GND2"/>
+<pinref part="U$9" gate="G$1" pin="GND2"/>
 <wire x1="124.46" y1="27.94" x2="129.54" y2="27.94" width="0.1524" layer="91"/>
 <junction x="106.68" y="20.32"/>
 <junction x="114.3" y="20.32"/>
@@ -9624,7 +9633,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <wire x1="114.3" y1="20.32" x2="114.3" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="AGND"/>
+<pinref part="U$9" gate="G$1" pin="AGND"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="129.54" y1="43.18" x2="127" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="127" y1="43.18" x2="127" y2="40.64" width="0.1524" layer="91"/>
@@ -9678,7 +9687,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="0" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="2.54" x2="2.54" y2="0" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="J$1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
@@ -9712,7 +9721,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <wire x1="-53.34" y1="127" x2="-48.26" y2="127" width="0.1524" layer="91"/>
 <wire x1="-48.26" y1="127" x2="-48.26" y2="137.16" width="0.1524" layer="91"/>
 <junction x="-53.34" y="127"/>
-<pinref part="U$11" gate="G$1" pin="P$2"/>
+<pinref part="C13" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
 <wire x1="-99.06" y1="114.3" x2="-93.98" y2="114.3" width="0.1524" layer="91"/>
@@ -9721,7 +9730,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="-93.98" y1="116.84" x2="-93.98" y2="114.3" width="0.1524" layer="91"/>
 <junction x="-93.98" y="114.3"/>
-<pinref part="U$10" gate="G$1" pin="P$2"/>
+<pinref part="C12" gate="G$1" pin="P$2"/>
 <wire x1="-99.06" y1="114.3" x2="-99.06" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -9735,20 +9744,20 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <wire x1="231.14" y1="121.92" x2="215.9" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$6" gate="G$1" pin="GND"/>
+<pinref part="U$1" gate="G$1" pin="GND"/>
 <wire x1="-104.14" y1="43.18" x2="-104.14" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 <wire x1="-104.14" y1="40.64" x2="-101.6" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="-101.6" y1="40.64" x2="-101.6" y2="38.1" width="0.1524" layer="91"/>
 <junction x="-101.6" y="40.64"/>
-<pinref part="U$6" gate="G$1" pin="ON/OFF"/>
+<pinref part="U$1" gate="G$1" pin="ON/OFF"/>
 <wire x1="-96.52" y1="43.18" x2="-96.52" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="-96.52" y1="40.64" x2="-101.6" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND18" gate="1" pin="GND"/>
 <wire x1="-50.8" y1="35.56" x2="-50.8" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="C13" gate="G$1" pin="P$2"/>
+<pinref part="C11" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
 <pinref part="D2" gate="1" pin="A"/>
@@ -9758,10 +9767,10 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <segment>
 <pinref part="GND20" gate="1" pin="GND"/>
 <wire x1="-119.38" y1="43.18" x2="-119.38" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="U$8" gate="G$1" pin="P$2"/>
+<pinref part="C10" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
-<pinref part="U$9" gate="G$1" pin="GND"/>
+<pinref part="J$2" gate="G$1" pin="GND"/>
 <pinref part="GND21" gate="1" pin="GND"/>
 <wire x1="-124.46" y1="-25.4" x2="-119.38" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="-119.38" y1="-25.4" x2="-119.38" y2="-27.94" width="0.1524" layer="91"/>
@@ -9779,7 +9788,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 </net>
 <net name="AREF" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="AREF"/>
+<pinref part="U$9" gate="G$1" pin="AREF"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="129.54" y1="48.26" x2="99.06" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="48.26" x2="99.06" y2="30.48" width="0.1524" layer="91"/>
@@ -9795,7 +9804,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="XTAL1"/>
+<pinref part="U$9" gate="G$1" pin="XTAL1"/>
 <wire x1="129.54" y1="55.88" x2="111.76" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="55.88" x2="111.76" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
@@ -9815,7 +9824,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <wire x1="104.14" y1="63.5" x2="104.14" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="66.04" x2="111.76" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="66.04" x2="111.76" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="XTAL2"/>
+<pinref part="U$9" gate="G$1" pin="XTAL2"/>
 <wire x1="111.76" y1="60.96" x2="129.54" y2="60.96" width="0.1524" layer="91"/>
 <junction x="104.14" y="66.04"/>
 <pinref part="Q1" gate="G$1" pin="1"/>
@@ -9828,14 +9837,14 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <segment>
 <wire x1="0" y1="73.66" x2="15.24" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="CC1"/>
-<pinref part="U$1" gate="G$1" pin="CC1"/>
+<pinref part="J$1" gate="G$1" pin="CC1"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <wire x1="0" y1="68.58" x2="15.24" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="CC2"/>
-<pinref part="U$1" gate="G$1" pin="CC2"/>
+<pinref part="J$1" gate="G$1" pin="CC2"/>
 </segment>
 </net>
 <net name="N$40" class="0">
@@ -9851,7 +9860,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="-101.6" y1="149.86" x2="-99.06" y2="149.86" width="0.1524" layer="91"/>
 <junction x="-99.06" y="149.86"/>
-<pinref part="U$10" gate="G$1" pin="P$1"/>
+<pinref part="C12" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="USB-" class="0">
@@ -9863,7 +9872,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <segment>
 <wire x1="0" y1="7.62" x2="7.62" y2="7.62" width="0.1524" layer="91"/>
 <label x="5.08" y="7.62" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="D-"/>
+<pinref part="J$1" gate="G$1" pin="D-"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -9918,7 +9927,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <label x="180.34" y="-53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="(RXD)PD0"/>
+<pinref part="U$9" gate="G$1" pin="(RXD)PD0"/>
 <wire x1="195.58" y1="10.16" x2="200.66" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="10.16" x2="200.66" y2="7.62" width="0.1524" layer="91"/>
 <label x="198.12" y="10.16" size="1.778" layer="95"/>
@@ -9933,7 +9942,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <label x="180.34" y="-55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="(TXD)PD1"/>
+<pinref part="U$9" gate="G$1" pin="(TXD)PD1"/>
 <wire x1="195.58" y1="12.7" x2="203.2" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="12.7" x2="203.2" y2="10.16" width="0.1524" layer="91"/>
 <label x="198.12" y="12.7" size="1.778" layer="95"/>
@@ -9958,7 +9967,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <segment>
 <wire x1="0" y1="12.7" x2="7.62" y2="12.7" width="0.1524" layer="91"/>
 <label x="5.08" y="12.7" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="D+"/>
+<pinref part="J$1" gate="G$1" pin="D+"/>
 </segment>
 </net>
 <net name="PD_INT" class="0">
@@ -9983,7 +9992,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <wire x1="228.6" y1="45.72" x2="228.6" y2="50.8" width="0.1524" layer="91"/>
 <junction x="228.6" y="45.72"/>
 <wire x1="220.98" y1="45.72" x2="220.98" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="(ADC4)PC4"/>
+<pinref part="U$9" gate="G$1" pin="(ADC4)PC4"/>
 <wire x1="220.98" y1="43.18" x2="195.58" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9994,7 +10003,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <pinref part="U$3" gate="G$1" pin="SCL"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="(ADC5)PC5"/>
+<pinref part="U$9" gate="G$1" pin="(ADC5)PC5"/>
 <wire x1="195.58" y1="45.72" x2="218.44" y2="45.72" width="0.1524" layer="91"/>
 <label x="198.12" y="45.72" size="1.778" layer="95"/>
 <wire x1="218.44" y1="45.72" x2="218.44" y2="48.26" width="0.1524" layer="91"/>
@@ -10008,7 +10017,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 </net>
 <net name="IO2" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="(INT0)PD2"/>
+<pinref part="U$9" gate="G$1" pin="(INT0)PD2"/>
 <wire x1="195.58" y1="15.24" x2="205.74" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="15.24" x2="205.74" y2="12.7" width="0.1524" layer="91"/>
 <label x="198.12" y="15.24" size="1.778" layer="95"/>
@@ -10025,7 +10034,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 </net>
 <net name="IO3" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="(INT1)PD3"/>
+<pinref part="U$9" gate="G$1" pin="(INT1)PD3"/>
 <wire x1="195.58" y1="17.78" x2="208.28" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="17.78" x2="208.28" y2="15.24" width="0.1524" layer="91"/>
 <label x="198.12" y="17.78" size="1.778" layer="95"/>
@@ -10035,7 +10044,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 </net>
 <net name="IO4" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="(T0)PD4"/>
+<pinref part="U$9" gate="G$1" pin="(T0)PD4"/>
 <wire x1="195.58" y1="20.32" x2="210.82" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="20.32" x2="210.82" y2="17.78" width="0.1524" layer="91"/>
 <label x="198.12" y="20.32" size="1.778" layer="95"/>
@@ -10045,7 +10054,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 </net>
 <net name="IO5" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="(T1)PD5"/>
+<pinref part="U$9" gate="G$1" pin="(T1)PD5"/>
 <wire x1="195.58" y1="22.86" x2="213.36" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="22.86" x2="213.36" y2="20.32" width="0.1524" layer="91"/>
 <label x="198.12" y="22.86" size="1.778" layer="95"/>
@@ -10055,7 +10064,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 </net>
 <net name="IO6" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="(AIN0)PD6"/>
+<pinref part="U$9" gate="G$1" pin="(AIN0)PD6"/>
 <wire x1="195.58" y1="25.4" x2="215.9" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="25.4" x2="215.9" y2="22.86" width="0.1524" layer="91"/>
 <label x="198.12" y="25.4" size="1.778" layer="95"/>
@@ -10065,7 +10074,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 </net>
 <net name="IO7" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="(AIN1)PD7"/>
+<pinref part="U$9" gate="G$1" pin="(AIN1)PD7"/>
 <wire x1="195.58" y1="27.94" x2="218.44" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="27.94" x2="218.44" y2="25.4" width="0.1524" layer="91"/>
 <label x="198.12" y="27.94" size="1.778" layer="95"/>
@@ -10075,7 +10084,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 </net>
 <net name="AD0" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="(ADC0)PC0"/>
+<pinref part="U$9" gate="G$1" pin="(ADC0)PC0"/>
 <wire x1="195.58" y1="33.02" x2="231.14" y2="33.02" width="0.1524" layer="91"/>
 <label x="198.12" y="33.02" size="1.778" layer="95"/>
 <wire x1="231.14" y1="33.02" x2="231.14" y2="35.56" width="0.1524" layer="91"/>
@@ -10088,14 +10097,14 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <pinref part="AD" gate="A" pin="2"/>
 <wire x1="236.22" y1="38.1" x2="228.6" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="38.1" x2="228.6" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="(ADC1)PC1"/>
+<pinref part="U$9" gate="G$1" pin="(ADC1)PC1"/>
 <wire x1="228.6" y1="35.56" x2="195.58" y2="35.56" width="0.1524" layer="91"/>
 <label x="198.12" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AD2" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="(ADC2)PC2"/>
+<pinref part="U$9" gate="G$1" pin="(ADC2)PC2"/>
 <wire x1="195.58" y1="38.1" x2="226.06" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="38.1" x2="226.06" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="AD" gate="A" pin="3"/>
@@ -10108,14 +10117,14 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <pinref part="AD" gate="A" pin="4"/>
 <wire x1="236.22" y1="43.18" x2="223.52" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="43.18" x2="223.52" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="(ADC3)PC3"/>
+<pinref part="U$9" gate="G$1" pin="(ADC3)PC3"/>
 <wire x1="223.52" y1="40.64" x2="195.58" y2="40.64" width="0.1524" layer="91"/>
 <label x="198.12" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IO8" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="(ICP)PB0"/>
+<pinref part="U$9" gate="G$1" pin="(ICP)PB0"/>
 <wire x1="195.58" y1="55.88" x2="215.9" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="55.88" x2="215.9" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="IOH" gate="A" pin="1"/>
@@ -10125,7 +10134,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 </net>
 <net name="IO9" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="(OC1)PB1"/>
+<pinref part="U$9" gate="G$1" pin="(OC1)PB1"/>
 <wire x1="195.58" y1="58.42" x2="213.36" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="58.42" x2="213.36" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="IOH" gate="A" pin="2"/>
@@ -10135,7 +10144,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 </net>
 <net name="SS" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="(SS)PB2"/>
+<pinref part="U$9" gate="G$1" pin="(SS)PB2"/>
 <wire x1="195.58" y1="60.96" x2="210.82" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="60.96" x2="210.82" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="IOH" gate="A" pin="3"/>
@@ -10197,7 +10206,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <label x="5.08" y="78.74" size="1.778" layer="95"/>
 <wire x1="0" y1="78.74" x2="15.24" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="VBUS_DET"/>
-<pinref part="U$1" gate="G$1" pin="VBUS"/>
+<pinref part="J$1" gate="G$1" pin="VBUS"/>
 </segment>
 <segment>
 <wire x1="-119.38" y1="78.74" x2="-127" y2="78.74" width="0.1524" layer="91"/>
@@ -10224,9 +10233,9 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="VIN"/>
+<pinref part="U$1" gate="G$1" pin="VIN"/>
 <wire x1="-114.3" y1="58.42" x2="-119.38" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U$8" gate="G$1" pin="P$1"/>
+<pinref part="C10" gate="G$1" pin="P$1"/>
 <wire x1="-119.38" y1="55.88" x2="-119.38" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="T1" gate="G$1" pin="S"/>
 <wire x1="-119.38" y1="66.04" x2="-119.38" y2="58.42" width="0.1524" layer="91"/>
@@ -10237,7 +10246,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <segment>
 <wire x1="-50.8" y1="50.8" x2="-50.8" y2="48.26" width="0.1524" layer="91"/>
 <junction x="-50.8" y="50.8"/>
-<pinref part="U$6" gate="G$1" pin="FEEDBACK"/>
+<pinref part="U$1" gate="G$1" pin="FEEDBACK"/>
 <wire x1="-73.66" y1="58.42" x2="-50.8" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="58.42" x2="-50.8" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="-53.34" y1="50.8" x2="-50.8" y2="50.8" width="0.1524" layer="91"/>
@@ -10245,12 +10254,12 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <pinref part="D3" gate="1" pin="A"/>
 <wire x1="-48.26" y1="58.42" x2="-50.8" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="U$7" gate="G$1" pin="P$2"/>
-<pinref part="C13" gate="G$1" pin="P$1"/>
+<pinref part="C11" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="OUTPUT"/>
+<pinref part="U$1" gate="G$1" pin="OUTPUT"/>
 <pinref part="D2" gate="1" pin="C"/>
 <wire x1="-73.66" y1="50.8" x2="-71.12" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="-71.12" y1="50.8" x2="-71.12" y2="48.26" width="0.1524" layer="91"/>
@@ -10261,7 +10270,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="U$9" gate="G$1" pin="D-"/>
+<pinref part="J$2" gate="G$1" pin="D-"/>
 <pinref part="R13" gate="G$1" pin="1"/>
 <wire x1="-124.46" y1="-15.24" x2="-111.76" y2="-15.24" width="0.1524" layer="91"/>
 <junction x="-111.76" y="-15.24"/>
@@ -10272,7 +10281,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="U$9" gate="G$1" pin="D+"/>
+<pinref part="J$2" gate="G$1" pin="D+"/>
 <wire x1="-124.46" y1="-20.32" x2="-111.76" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="-111.76" y1="-20.32" x2="-111.76" y2="-22.86" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="1"/>
