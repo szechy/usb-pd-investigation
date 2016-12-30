@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -459,30 +459,13 @@ package type OT</description>
 <pad name="B6" x="0.4" y="-1.35" drill="0.4" diameter="0.6"/>
 <pad name="B5" x="1.2" y="-1.35" drill="0.4" diameter="0.6"/>
 <pad name="B4" x="2" y="-1.35" drill="0.4" diameter="0.6"/>
-<wire x1="-5.85" y1="-1.45" x2="-5.85" y2="-0.35" width="0.127" layer="20"/>
-<wire x1="-5.25" y1="-0.35" x2="-5.25" y2="-1.45" width="0.127" layer="20"/>
-<wire x1="-5.85" y1="-0.35" x2="-5.25" y2="-0.35" width="0.127" layer="20" curve="-180"/>
-<wire x1="-5.25" y1="-1.45" x2="-5.85" y2="-1.45" width="0.127" layer="20" curve="-180"/>
-<smd name="P$27" x="-5.55" y="-0.9" dx="1.2" dy="2.3" layer="1"/>
-<wire x1="5.25" y1="-1.45" x2="5.25" y2="-0.35" width="0.127" layer="20"/>
-<wire x1="5.85" y1="-0.35" x2="5.85" y2="-1.45" width="0.127" layer="20"/>
-<wire x1="5.25" y1="-0.35" x2="5.85" y2="-0.35" width="0.127" layer="20" curve="-180"/>
-<wire x1="5.85" y1="-1.45" x2="5.25" y2="-1.45" width="0.127" layer="20" curve="-180"/>
-<smd name="P$28" x="5.55" y="-0.9" dx="1.2" dy="2.3" layer="1"/>
-<wire x1="5.25" y1="-6.5" x2="5.25" y2="-5.4" width="0.127" layer="20"/>
-<wire x1="5.85" y1="-5.4" x2="5.85" y2="-6.5" width="0.127" layer="20"/>
-<wire x1="5.25" y1="-5.4" x2="5.85" y2="-5.4" width="0.127" layer="20" curve="-180"/>
-<wire x1="5.85" y1="-6.5" x2="5.25" y2="-6.5" width="0.127" layer="20" curve="-180"/>
-<smd name="P$29" x="5.55" y="-5.95" dx="1.2" dy="2.3" layer="1"/>
-<wire x1="-5.85" y1="-6.5" x2="-5.85" y2="-5.4" width="0.127" layer="20"/>
-<wire x1="-5.25" y1="-5.4" x2="-5.25" y2="-6.5" width="0.127" layer="20"/>
-<wire x1="-5.85" y1="-5.4" x2="-5.25" y2="-5.4" width="0.127" layer="20" curve="-180"/>
-<wire x1="-5.25" y1="-6.5" x2="-5.85" y2="-6.5" width="0.127" layer="20" curve="-180"/>
-<smd name="P$30" x="-5.55" y="-5.95" dx="1.2" dy="2.3" layer="1"/>
 <wire x1="-4.67" y1="-8.55" x2="-4.67" y2="-1.9" width="0.127" layer="20"/>
 <wire x1="-4.67" y1="-1.9" x2="4.67" y2="-1.9" width="0.127" layer="20"/>
 <wire x1="4.67" y1="-1.9" x2="4.67" y2="-8.55" width="0.127" layer="20"/>
 <pad name="P$3" x="-5.55" y="-0.9" drill="1.7"/>
+<pad name="P$4" x="-5.55" y="-5.95" drill="1.7"/>
+<pad name="P$5" x="5.55" y="-0.9" drill="1.7"/>
+<pad name="P$6" x="5.55" y="-5.95" drill="1.7"/>
 </package>
 </packages>
 <symbols>
