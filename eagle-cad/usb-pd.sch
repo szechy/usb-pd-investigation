@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9302,6 +9302,9 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <part name="U$3" library="usb-pd" deviceset="NXP-PTN5150" device=""/>
 <part name="T1" library="transistor-power" deviceset="FDN360P" device=""/>
 <part name="J$1" library="usb-pd" deviceset="TYPE-C-12401548E4" device=""/>
+<part name="R16" library="rcl" deviceset="R-US_" device="R0402" value="300"/>
+<part name="D11" library="led" deviceset="LED" device="CHIPLED_0603"/>
+<part name="GND23" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9400,6 +9403,9 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <instance part="U$3" gate="G$1" x="33.02" y="68.58" rot="MR0"/>
 <instance part="T1" gate="G$1" x="-116.84" y="71.12" rot="R180"/>
 <instance part="J$1" gate="G$1" x="-12.7" y="60.96" rot="MR0"/>
+<instance part="R16" gate="G$1" x="152.4" y="144.78" rot="R90"/>
+<instance part="D11" gate="G$1" x="152.4" y="134.62"/>
+<instance part="GND23" gate="1" x="152.4" y="124.46"/>
 </instances>
 <busses>
 </busses>
@@ -9417,6 +9423,12 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <pinref part="IOH" gate="A" pin="4"/>
 <wire x1="208.28" y1="76.2" x2="236.22" y2="76.2" width="0.1524" layer="91"/>
 <label x="198.12" y="63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R16" gate="G$1" pin="2"/>
+<wire x1="152.4" y1="149.86" x2="152.4" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="154.94" x2="157.48" y2="154.94" width="0.1524" layer="91"/>
+<label x="152.4" y="154.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -9784,6 +9796,11 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <wire x1="-96.52" y1="-22.86" x2="-96.52" y2="-25.4" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="-99.06" y1="-22.86" x2="-96.52" y2="-22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND23" gate="1" pin="GND"/>
+<pinref part="D11" gate="G$1" pin="C"/>
+<wire x1="152.4" y1="127" x2="152.4" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AREF" class="0">
@@ -10289,6 +10306,13 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <junction x="-111.76" y="-22.86"/>
 <pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="-111.76" y1="-25.4" x2="-111.76" y2="-22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="D11" gate="G$1" pin="A"/>
+<pinref part="R16" gate="G$1" pin="1"/>
+<wire x1="152.4" y1="137.16" x2="152.4" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
